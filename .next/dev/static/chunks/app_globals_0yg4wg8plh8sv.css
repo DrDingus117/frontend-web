@@ -32,6 +32,7 @@
     --font-sans: var(--font-geist-sans);
     --font-mono: var(--font-geist-mono);
     --color-red-300: #ffa3a3;
+    --color-red-400: #ff6568;
     --color-green-300: #7bf1a8;
     --color-emerald-200: #a4f4cf;
     --color-emerald-400: #00d294;
@@ -81,6 +82,7 @@
   @supports (color: lab(0% 0 0)) {
     :root, :host {
       --color-red-300: lab(76.5514% 36.4219 15.5335);
+      --color-red-400: lab(63.7053% 60.7449 31.3109);
       --color-green-300: lab(86.9953% -47.2691 25.0054);
       --color-emerald-200: lab(90.2247% -31.039 9.47084);
       --color-emerald-400: lab(75.0771% -60.7313 19.4146);
@@ -685,6 +687,10 @@
     color: var(--color-emerald-200);
   }
 
+  .text-emerald-400 {
+    color: var(--color-emerald-400);
+  }
+
   .text-gray-50 {
     color: var(--color-gray-50);
   }
@@ -711,6 +717,10 @@
 
   .text-red-300 {
     color: var(--color-red-300);
+  }
+
+  .text-red-400 {
+    color: var(--color-red-400);
   }
 
   .text-sky-300 {
